@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 8555",
     "build": "next build",
     "start": "next start"
   },
@@ -18,8 +18,17 @@
   },
   "homepage": "https://github.com/DestinyMajesty/bigfish-weekly#readme",
   "dependencies": {
+    "@zeit/next-less": "^0.3.0",
+    "less": "^3.8.1",
     "next": "^6.1.2",
     "react": "^16.5.1",
     "react-dom": "^16.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1"
   }
 }

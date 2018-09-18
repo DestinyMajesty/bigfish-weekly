@@ -1,0 +1,25 @@
+{
+  "name": "bigfish-weekly",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DestinyMajesty/bigfish-weekly.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DestinyMajesty/bigfish-weekly/issues"
+  },
+  "homepage": "https://github.com/DestinyMajesty/bigfish-weekly#readme",
+  "dependencies": {
+    "next": "^6.1.2",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
+  }
+}

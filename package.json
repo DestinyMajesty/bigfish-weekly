@@ -19,10 +19,15 @@
   "homepage": "https://github.com/DestinyMajesty/bigfish-weekly#readme",
   "dependencies": {
     "@zeit/next-less": "^0.3.0",
+    "antd": "^3.9.2",
+    "babel-plugin-import": "^1.9.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "css-loader": "^1.0.0",
     "less": "^3.8.1",
     "next": "^6.1.2",
     "react": "^16.5.1",
-    "react-dom": "^16.5.1"
+    "react-dom": "^16.5.1",
+    "style-loader": "^0.23.0"
   },
   "devDependencies": {
     "eslint": "^5.6.0",

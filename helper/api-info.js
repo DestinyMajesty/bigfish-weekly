@@ -88,6 +88,7 @@ postHooks.push(async (res, data, showError) => {
     res.errno = res.result
   }
   if (showError !== false) {
+    // 判断是否为浏览器端
     if (typeof document === 'object') {
       message.destroy()
       message.error(res.errmsg)

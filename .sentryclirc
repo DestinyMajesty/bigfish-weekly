@@ -1,0 +1,8 @@
+[defaults]
+url = https://sentry.io/
+<!-- 此处可以从你的sentry.io的全路径看出，如：https://sentry.io/此处是你的org/此处是你的project/ -->
+org = cmiot
+project = fe-weekly
+
+[auth]
+token = 704cafcf160f4eaba8c6d8f29d796355b081945d0a454649ac455571c0f1f33f
